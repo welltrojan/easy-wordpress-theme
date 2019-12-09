@@ -1,0 +1,25 @@
+@mixin transition($transition...) {
+	-moz-transition: $transition;
+	-o-transition: $transition;
+	-webkit-transition: $transition;
+	transition: $transition;
+}
+
+@function calculateRem($size) {
+	$remSize: $size / 16px;
+	@return #{$remSize}rem;
+}
+
+@mixin box-shadow($values...) {
+	-webkit-box-shadow: $values;
+	-moz-box-shadow: $values;
+	box-shadow: $values;
+}
+
+@mixin transform($values) {
+	-webkit-box-transform: $values;
+	-moz-box-transform: $values;
+	-webkit-transform: $values;
+	-ms-transform: $values;
+	transform: $values;
+}
