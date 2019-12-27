@@ -4,10 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title><?php wp_title(); ?></title>	
-	<?php wp_head(); ?>
+	<title><?php wp_title();?></title>
+	<?php wp_head();?>
 
-	<link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/images/favicon.png"/>
+	<link rel="icon" type="image/png" href="<?php bloginfo('template_directory');?>/images/favicon.png"/>
 
 	<!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -16,9 +16,9 @@
 	<!-- Font Awesome -->
 	<script src="https://kit.fontawesome.com/c52cdfa652.js" crossorigin="anonymous"></script>
 	<!-- Owl Carousel Style -->
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory');?>/style/css/owl.carousel.min.css">
 	<!-- Theme Style -->
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style/css/style.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory');?>/style/css/style.css">
 
 </head>
-<body <?php body_class(); ?>>
+<body <?php body_class();?>>
