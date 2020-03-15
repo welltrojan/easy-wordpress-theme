@@ -6,9 +6,9 @@
 
 <?php wp_footer(); ?>
 
-<?php get_template_part('parts/codigos-externos'); ?>
+<?php get_template_part('parts/external-codes'); ?>
 
-<!-- Theme JS -->
+<!-- Load JS -->
 <script src="<?php bloginfo('template_directory'); ?>/js/main.js"></script>
 
 </body>

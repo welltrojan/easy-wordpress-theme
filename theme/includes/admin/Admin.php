@@ -8,7 +8,7 @@ class Admin
 		add_filter("upload_mimes", array($this, 'cc_mime_types'));
 	}
 
-
+	// Change WP logo on wp-admin login page
 	public static function footer() {
 		?>
 			<style>
@@ -18,7 +18,8 @@ class Admin
 			</style>
 		<?php 
 	}
-		
+	
+	// Allow upload SVG Files to Wordpress
 	function cc_mime_types($mimes) {
 		$mimes['svg'] = 'image/svg+xml';
 		return $mimes;

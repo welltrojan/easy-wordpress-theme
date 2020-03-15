@@ -7,6 +7,7 @@ class AcfClass
         add_action('admin_menu',		array('AcfClass', 'createOptionsPage'));
     }
 
+	// Create options page on admin
 	public static function createOptionsPage()
 	{
 		if( function_exists('acf_add_options_page') ) {
