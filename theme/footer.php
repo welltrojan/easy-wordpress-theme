@@ -9,7 +9,7 @@
 <?php get_template_part('parts/external-codes'); ?>
 
 <!-- Load JS -->
-<script src="<?php bloginfo('template_directory'); ?>/js/main.js"></script>
+<script url="<?php bloginfo('template_directory'); ?>" src="<?php bloginfo('template_directory'); ?>/js/main.js"></script>
 
 </body>
 </html>
