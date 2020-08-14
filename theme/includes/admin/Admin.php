@@ -4,6 +4,11 @@ class Admin
 {
 	public function __construct()
 	{
+
+		// Theme Support
+		// Specific theme support thumbnail for pages and posts
+		add_theme_support( 'post-thumbnails', array( 'post', 'page' ) );
+
 		add_action('login_footer', array($this, 'footer'));
 		add_filter("upload_mimes", array($this, 'cc_mime_types'));
 	}
