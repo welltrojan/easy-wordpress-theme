@@ -7,10 +7,10 @@ class LoginClass
         add_action('login_footer', array($this, 'footer'));
     }
 
-	// Change WP logo on wp-admin login page
+	// Customize wp-admin with logo and background-color
 	public static function footer() {
 		$logo 		= get_field('logotipo', 'options')['url'];
-		$main_color = get_field('cor_principal', 'options')['url'];
+		$main_color = get_field('cor_principal', 'options');
 		?>
 			<style>
 				body {
@@ -18,6 +18,10 @@ class LoginClass
 				}
 				.login h1 a {
 					background-image: url('<?php echo $logo; ?>');
+					width: 100%;
+					height: 150px;
+					background-position: center;
+					background-size: contain;
 				}
 			</style>
 		<?php 
