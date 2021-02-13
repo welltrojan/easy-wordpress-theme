@@ -1,6 +1,6 @@
 <?php
 
-class Admin
+class AdminClass
 {
 	public function __construct()
 	{
@@ -24,4 +24,4 @@ class Admin
 
 }
 
-new Admin();
+new AdminClass();
