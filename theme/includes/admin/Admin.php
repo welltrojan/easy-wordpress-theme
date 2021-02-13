@@ -7,7 +7,11 @@ class Admin
 
 		// Theme Support
 		// Specific theme support thumbnail for pages and posts
-		add_theme_support( 'post-thumbnails', array( 'post', 'page' ) );
+		add_theme_support( 'post-thumbnails', array( 'post', 'page' ));
+		// Theme support for Woocommerce
+		add_theme_support( 'woocommerce' );
+		add_theme_support( 'wc-product-gallery-slider' );
+
 
 		add_filter("upload_mimes", array($this, 'cc_mime_types'));
 	}
