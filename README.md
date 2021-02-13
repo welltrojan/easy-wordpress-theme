@@ -10,6 +10,7 @@ Easy development theme for Wordpress. Just copy and paste.
 - The "Advanced Custom Fields Pro" plugin is found at GPLDL, under a free license (https://gpldl.com/repository/premium-wordpress-plugins/);
 - The library "Owl Carousel" is a free feature extension that allows you to work with carrousels, the documentation can be found at: https://owlcarousel2.github.io/OwlCarousel2/docs/started-welcome.html;
 - Bootstrap toolkit is a free feature for development with mobile-first fount at: https://getbootstrap.com
+- jQuery Mask is a free feature to customize how inputs or texts will display they current values, can be found at: https://igorescobar.github.io/jQuery-Mask-Plugin/
 
 ## Author
 - Wellington Trojan, Curitiba - Brazil
